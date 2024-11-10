@@ -11,7 +11,7 @@ This is a simple web application that fetches and displays a list of starships f
 
 ## 🖥️📱 Live Demo
 
-You can view a live version of the project here: [Star Wars Starships Catalog](YOUR_LIVE_DEMO_LINK)
+You can view a live version of the project here: [Star Wars Starships Catalog](https://moonlit-paletas-acba1e.netlify.app/)
 
 ## 📸 Screenshots
 
