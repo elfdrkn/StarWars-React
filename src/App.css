@@ -1,0 +1,138 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+body {
+  background: linear-gradient( #372A33, #161825);  
+  color: white;  
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+input {
+  background-color: #333; 
+  color: white; 
+  border: 1px solid #555; 
+  padding: 10px; 
+  border-radius: 10px; 
+  font-size: 16px; 
+  width: 20%; 
+  box-sizing: border-box; 
+}
+
+input:focus {
+  border-color: #f0f0f0; 
+  outline: none; 
+}
+
+.starships-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  color: #BCB4E3;
+}
+
+.starship-card {
+  width: 250px;
+  margin: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+  background-color: #111423;
+}
+
+.starship-card:hover {
+  transform: scale(1.05);
+}
+
+.starship-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card-content {
+  margin-top: 15px;
+}
+
+.card-content h3 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+button {
+  background-color: #374a60; 
+  color: #adadad; 
+  border: none; 
+  padding: 12px 20px; 
+  border-radius: 15px; 
+  font-size: 12px; 
+  cursor: pointer; 
+  transition: background-color 0.3s, transform 0.3s; 
+}
+
+button:hover {
+  background-color: #f0f0f0; 
+  color: #333; 
+  transform: scale(1.05);/
+}
+
+button:focus {
+  outline: none; 
+  border-color: #ffcc00; 
+}
